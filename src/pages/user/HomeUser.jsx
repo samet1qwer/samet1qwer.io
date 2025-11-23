@@ -10,9 +10,9 @@ function HomeUser() {
 
   useEffect(() => {
     fetch(`${import.meta.env.BASE_URL}data/data.json`)
-      .then((response) => {
-        if (!response.ok) throw new Error("HTTP error " + response.status);
-        return response.json();
+      .then((res) => {
+        if (!res.ok) throw new Error("HTTP error " + res.status);
+        return res.json();
       })
       .then((data) => setMenu(data))
       .catch((err) => console.error("Veri alınamadı:", err));
