@@ -9,7 +9,7 @@ function HomeUser() {
   const [searchQuery, setSearchQuery] = useState("");
 
   useEffect(() => {
-    fetch("data/data.json")
+    fetch("samet1qwer.io/data/data.json")
       .then((res) => {
         if (!res.ok) throw new Error("HTTP error " + res.status);
         return res.json();
