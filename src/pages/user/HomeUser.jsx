@@ -17,7 +17,7 @@ function HomeUser() {
       .then((data) => setMenu(data))
       .catch((err) => console.error("Veri alınamadı:", err));
   }, []);
-
+  console.log(`${import.meta.env.BASE_URL}data/data.json`);
   if (!menu) return <div className="text-center mt-4">Yükleniyor...</div>;
 
   const categoriesToShow =
