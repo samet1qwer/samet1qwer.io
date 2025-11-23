@@ -17,6 +17,7 @@ function HomeUser() {
       .then((data) => setMenu(data))
       .catch((err) => console.error("Veri alınamadı:", err));
   }, []);
+
   if (!menu) return <div className="text-center mt-4">Yükleniyor...</div>;
 
   const categoriesToShow =
