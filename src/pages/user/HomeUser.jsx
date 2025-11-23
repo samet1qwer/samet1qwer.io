@@ -9,12 +9,14 @@ function HomeUser() {
   const [searchQuery, setSearchQuery] = useState("");
 
   useEffect(() => {
-    fetch(import.meta.env.BASE_URL + "data/data.json")
-      .then((response) => response.json())
+    fetch(`${import.meta.env.BASE_URL}data/data.json`)
+      .then((response) => {
+        if (!response.ok) throw new Error("HTTP error " + response.status);
+        return response.json();
+      })
       .then((data) => setMenu(data))
       .catch((err) => console.error("Veri alınamadı:", err));
   }, []);
-
   if (!menu) return <div className="text-center mt-4">Yükleniyor...</div>;
 
   const categoriesToShow =
