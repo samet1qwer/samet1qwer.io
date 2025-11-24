@@ -19,7 +19,7 @@
       "name": "Klasik Çizburger ve Patates Kızartması",
       "description": "tam tahıllı bir ekmek arasında sulu bir dana köftesi, erimiş çedar peyniri, taze marul, domates dilimleri, kırmızı soğan ve turşu ile hazırlanmış ağız sulandırıcı bir çizburger yer alıyor.",
       "price": 7.0,
-      "image_url": "https://samet1qwer.github.io/samet1qwer.io/burger.png"
+      "image_url": "https://samet1qwer.github.io/samet1qwer.io/çizburger.png"
     },
     {
       "id": 4,
@@ -62,17 +62,17 @@
     },
     {
       "id": 2,
-      "name": "Iced Coffee",
-      "description": "Chilled espresso with milk and a touch of caramel syrup.",
+      "name": "çikolatalı kek",
+      "description": "lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua",
       "price": 5.0,
-      "image_url": "https://samet1qwer.github.io/samet1qwer.io/meze2.png"
+      "image_url": "https://samet1qwer.github.io/samet1qwer.io/pasta.png"
     },
     {
       "id": 3,
-      "name": "Sparkling Water",
-      "description": "Lightly carbonated mineral water served cold.",
-      "price": 3.0,
-      "image_url": "https://samet1qwer.github.io/samet1qwer.io/kahvaltı4.png"
+      "name": "cheesecake",
+      "description": "lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua",
+      "price": 5.0,
+      "image_url": "https://samet1qwer.github.io/samet1qwer.io/cheesecake.png"
     }
   ],
   "Webci_Menu": [
