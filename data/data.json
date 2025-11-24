@@ -1,0 +1,95 @@
+{
+  "Başlangıçlar": [
+    {
+      "id": 1,
+      "name": "Classic Bruschetta",
+      "description": "Grilled bread topped with fresh diced tomatoes, garlic, basil, and a drizzle of balsamic glaze.",
+      "price": 8.5,
+      "image_url": "./public/yemek.png"
+    },
+    {
+      "id": 2,
+      "name": "Stuffed Mushrooms",
+      "description": "Savory mushroom caps filled with a delicious mixture of herbs, breadcrumbs, and Parmesan cheese.",
+      "price": 9.75,
+      "image_url": "./public/yemek2.png"
+    },
+    {
+      "id": 3,
+      "name": "Fried Calamari",
+      "description": "Tender calamari rings lightly battered and fried to a golden crisp, served with marinara sauce.",
+      "price": 12.0,
+      "image_url": "./public/yemek3.png"
+    }
+  ],
+
+  "Ana_Yemekler": [
+    {
+      "id": 1,
+      "name": "Chocolate Lava Cake",
+      "description": "Warm chocolate cake with a gooey molten center, served with vanilla ice cream.",
+      "price": 8.0,
+      "image_url": "./public/salata2.png"
+    },
+    {
+      "id": 2,
+      "name": "Tiramisu",
+      "description": "Classic Italian dessert made with espresso-soaked ladyfingers and mascarpone cream.",
+      "price": 7.5,
+      "image_url": "./public/pizza.png"
+    },
+    {
+      "id": 3,
+      "name": "Cheesecake",
+      "description": "Rich and creamy cheesecake served with your choice of strawberry or blueberry topping.",
+      "price": 7.0,
+      "image_url": "./public/tatlı3.png"
+    }
+  ],
+  "İçecekler": [
+    {
+      "id": 1,
+      "name": "Fresh Lemonade",
+      "description": "Refreshing homemade lemonade with a hint of mint.",
+      "price": 4.5,
+      "image_url": "./public/meze.png"
+    },
+    {
+      "id": 2,
+      "name": "Iced Coffee",
+      "description": "Chilled espresso with milk and a touch of caramel syrup.",
+      "price": 5.0,
+      "image_url": "./public/meze2.png"
+    },
+    {
+      "id": 3,
+      "name": "Sparkling Water",
+      "description": "Lightly carbonated mineral water served cold.",
+      "price": 3.0,
+      "image_url": "./public/kahvaltı4.png"
+    }
+  ],
+  "Tatlılar": [
+    {
+      "id": 1,
+      "name": "Fresh Lemonade",
+      "description": "Refreshing homemade lemonade with a hint of mint.",
+      "price": 4.5,
+      "image_url": "./public/meze.png"
+    },
+    {
+      "id": 2,
+      "name": "Iced Coffee",
+      "description": "Chilled espresso with milk and a touch of caramel syrup.",
+      "price": 5.0,
+      "image_url": "./public/meze2.png"
+    },
+    {
+      "id": 3,
+      "name": "Sparkling Water",
+      "description": "Lightly carbonated mineral water served cold.",
+      "price": 3.0,
+      "image_url": "./public/kahvaltı4.png"
+    }
+  ]
+}
