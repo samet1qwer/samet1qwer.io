@@ -1,58 +1,64 @@
 {
-  "Başlangıçlar": [
-    {
-      "id": 1,
-      "name": "Classic Bruschetta",
-      "description": "Grilled bread topped with fresh diced tomatoes, garlic, basil, and a drizzle of balsamic glaze.",
-      "price": 8.5,
-      "image_url": "https://samet1qwer.github.io/samet1qwer.io/yemek.png"
-    },
-    {
-      "id": 2,
-      "name": "Stuffed Mushrooms",
-      "description": "Savory mushroom caps filled with a delicious mixture of herbs, breadcrumbs, and Parmesan cheese.",
-      "price": 9.75,
-      "image_url": "https://samet1qwer.github.io/samet1qwer.io/yemek2.png"
-    },
-    {
-      "id": 3,
-      "name": "Fried Calamari",
-      "description": "Tender calamari rings lightly battered and fried to a golden crisp, served with marinara sauce.",
-      "price": 12.0,
-      "image_url": "https://samet1qwer.github.io/samet1qwer.io/yemek3.png"
-    }
-  ],
-
   "Ana_Yemekler": [
     {
       "id": 1,
-      "name": "Chocolate Lava Cake",
-      "description": "Warm chocolate cake with a gooey molten center, served with vanilla ice cream.",
+      "name": "Pesto Soslu Tavuklu Makarna",
+      "description": "taze fesleğen, çam fıstığı, sarımsak, parmesan peyniri ve zeytinyağı ile hazırlanan canlı yeşil bir pesto sosuyla harmanlanmış, ızgara tavuk parçaları ve al dente makarna",
       "price": 8.0,
-      "image_url": "https://samet1qwer.github.io/samet1qwer.io/salata2.png"
+      "image_url": "https://samet1qwer.github.io/samet1qwer.io/peslo.png"
     },
     {
       "id": 2,
-      "name": "Tiramisu",
-      "description": "Classic Italian dessert made with espresso-soaked ladyfingers and mascarpone cream.",
+      "name": "Somon Fileto ve Kuşkonmaz",
+      "description": "Genellikle limon dilimleri, dereotu ve zeytinyağı ile servis edilir. Sağlıklı ve besleyici bir deniz ürünleri yemeği.",
       "price": 7.5,
-      "image_url": "https://samet1qwer.github.io/samet1qwer.io/pizza.png"
+      "image_url": "https://samet1qwer.github.io/samet1qwer.io/somon.png"
     },
     {
       "id": 3,
-      "name": "Cheesecake",
-      "description": "Rich and creamy cheesecake served with your choice of strawberry or blueberry topping.",
+      "name": "Klasik Çizburger ve Patates Kızartması",
+      "description": "tam tahıllı bir ekmek arasında sulu bir dana köftesi, erimiş çedar peyniri, taze marul, domates dilimleri, kırmızı soğan ve turşu ile hazırlanmış ağız sulandırıcı bir çizburger yer alıyor.",
       "price": 7.0,
-      "image_url": "https://samet1qwer.github.io/samet1qwer.io/tatlı3.png"
+      "image_url": "https://samet1qwer.github.io/samet1qwer.io/burger.png"
+    },
+    {
+      "id": 4,
+      "name": "Sebzeli Noodle Kasesi (Vegan)",
+      "description": "İçinde brokoli, havuç, bezelye, kırmızı biber ve mantar gibi sebzeler görülebilir. Genellikle soya sosu, zencefil ve sarımsak bazlı hafif bir sosla tatlandırılır. Hızlı, lezzetli ve besleyici bir vegan seçeneği.",
+      "price": 7.0,
+      "image_url": "https://samet1qwer.github.io/samet1qwer.io/noodle.png"
+    },
+    {
+      "id": 5,
+      "name": "Taze Yeşillikli ve Avokadolu Yumurta Tost",
+      "description": "altın rengi bir dilim ekmeğin üzerinde ezilmiş taze avokado ve üzerine mükemmel pişmiş, sarısı akışkan bir poşe yumurta bulunuyor.",
+      "price": 7.0,
+      "image_url": "https://samet1qwer.github.io/samet1qwer.io/avokado.png"
     }
   ],
   "İçecekler": [
     {
       "id": 1,
-      "name": "Fresh Lemonade",
-      "description": "Refreshing homemade lemonade with a hint of mint.",
+      "name": "Ferahlatıcı bir limonata",
+      "description": "lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua",
       "price": 4.5,
-      "image_url": "https://samet1qwer.github.io/samet1qwer.io/meze.png"
+      "image_url": "https://samet1qwer.github.io/samet1qwer.io/limonata.png"
+    },
+    {
+      "id": 2,
+      "name": "Ferahlatıcı bir limonata",
+      "description": "lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua",
+      "price": 5.0,
+      "image_url": "https://samet1qwer.github.io/samet1qwer.io/limonata2.png"
+    }
+  ],
+  "Tatlılar": [
+    {
+      "id": 1,
+      "name": "Taze Meyveli Pancake Yığını",
+      "description": "Üzerine taze böğürtlen, çilek ve yaban mersini gibi çeşitli mevsim meyveleri özenle yerleştirilmiş. Genellikle üzerine tereyağı ve akçaağaç şurubu gezdirilerek servis edilir",
+      "price": 4.5,
+      "image_url": "https://samet1qwer.github.io/samet1qwer.io/pancake.png"
     },
     {
       "id": 2,
@@ -69,27 +75,13 @@
       "image_url": "https://samet1qwer.github.io/samet1qwer.io/kahvaltı4.png"
     }
   ],
-  "Tatlılar": [
+  "Webci_Menu": [
     {
       "id": 1,
-      "name": "Fresh Lemonade",
-      "description": "Refreshing homemade lemonade with a hint of mint.",
-      "price": 4.5,
-      "image_url": "https://samet1qwer.github.io/samet1qwer.io/meze.png"
-    },
-    {
-      "id": 2,
-      "name": "Iced Coffee",
-      "description": "Chilled espresso with milk and a touch of caramel syrup.",
-      "price": 5.0,
-      "image_url": "https://samet1qwer.github.io/samet1qwer.io/meze2.png"
-    },
-    {
-      "id": 3,
-      "name": "Sparkling Water",
-      "description": "Lightly carbonated mineral water served cold.",
-      "price": 3.0,
-      "image_url": "https://samet1qwer.github.io/samet1qwer.io/kahvaltı4.png"
+      "name": "Web Geliştirici Menüsü: Essential Combo",
+      "description": "Menü içeriği olarak sadece iki madde bulunuyor: 1. Su (Saf H2O) ve 2. Ekmek (Krustlu ve sade) ile oluşturulmus bir menü.",
+      "price": 10.0,
+      "image_url": "https://samet1qwer.github.io/samet1qwer.io/su.png"
     }
   ]
 }
