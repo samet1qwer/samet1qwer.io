@@ -1,10 +1,10 @@
-## 🍽️📱 Gourmet Restaurant QR Menu
+##  Gourmet Restaurant QR Menu
 
 A simple, modern web application designed to **digitize restaurant menus**. Customers can quickly scan a **QR code** to instantly access and browse the menu on their personal devices, providing a clean, convenient, and hygienic alternative to traditional physical menus.
 
 ---
 
-## ✨ Features
+##  Features
 
 This application provides a seamless experience for both customers and restaurant staff:
 
@@ -22,7 +22,7 @@ This application provides a seamless experience for both customers and restauran
 
 ---
 
-## 💻 Technologies
+##  Technologies
 
 The application is built using a modern and powerful stack:
 
