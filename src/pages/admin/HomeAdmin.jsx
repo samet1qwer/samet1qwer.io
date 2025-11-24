@@ -12,7 +12,7 @@ function HomeAdmin() {
               className="mx-auto mb-4 rounded-full w-10 h-10"
             />
             <h2 className="text-xl text-center text-emerald-700 font-semibold mb-8 tracking-tight ">
-              Gourmet Restaurant
+              Kodlaya Restorant
             </h2>
           </div>
           <div className="bg-gray-500 w-full border-xl h-0.5 mb-8"></div>
