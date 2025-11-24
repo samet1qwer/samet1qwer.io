@@ -10,8 +10,17 @@ function HomeUser() {
 
   useEffect(() => {
     fetch(`${import.meta.env.BASE_URL}data/data.json`)
-      .then((res) => res.json())
-      .then((data) => setMenu(data));
+      .then((res) => {
+        if (!res.ok) throw new Error("HTTP error " + res.status);
+        return res.json();
+      })
+      .then((data) => setMenu(data))
+      .catch((err) =>
+        console.error(
+          "Veri alınamadı:",
+          `${import.meta.env.BASE_URL}data/data.json`
+        )
+      );
   }, []);
 
   if (!menu) return <div className="text-center mt-4">Yükleniyor...</div>;
