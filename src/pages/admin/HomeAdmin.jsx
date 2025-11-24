@@ -7,7 +7,7 @@ function HomeAdmin() {
         <aside className="w-64 h-screen bg-white text-gray-800 border-r border-gray-200 p-6 shadow-sm relative">
           <div className="flex flex-col items-center justify-center mb-8">
             <img
-              src="/icon.png"
+              src="/samet1qwer.io/icon.png"
               alt="icon"
               className="mx-auto mb-4 rounded-full w-10 h-10"
             />
