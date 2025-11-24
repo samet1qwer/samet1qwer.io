@@ -38,7 +38,7 @@ function HomeAdmin() {
             </ul>
 
             <a
-              href="/admin/login"
+              href="../samet1qwer.io/admin/login"
               className="absolute bottom-4 left-4 text-xl text-red-500 hover:text-red-600 flex items-center gap-3 p-3 rounded-lg transition"
             >
               logout <i className="fa-solid fa-right-from-bracket"></i>
