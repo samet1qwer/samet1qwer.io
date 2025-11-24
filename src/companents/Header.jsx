@@ -6,7 +6,7 @@ function Header({ setSearchQuery, SearchQuery }) {
       <div className="max-w-7xl mx-auto md:px-10 px-7 py-5">
         <div className="mb-6">
           <h1 className="text-2xl md:text-3xl font-bold text-emerald-700 cursor-pointer">
-            Gourmet Restaurant
+            Kodlaya Restorant
           </h1>
           <p className="text-sm md:text-base text-gray-600 mt-1 cursor-pointer">
             Modern mutfak sanatı
