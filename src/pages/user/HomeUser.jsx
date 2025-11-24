@@ -10,12 +10,8 @@ function HomeUser() {
 
   useEffect(() => {
     fetch(`${import.meta.env.BASE_URL}data/data.json`)
-      .then((res) => {
-        if (!res.ok) throw new Error("HTTP error " + res.status);
-        return res.json();
-      })
-      .then((data) => setMenu(data))
-      .catch((err) => console.error("Veri alınamadı:", err));
+      .then((res) => res.json())
+      .then((data) => setMenu(data));
   }, []);
 
   if (!menu) return <div className="text-center mt-4">Yükleniyor...</div>;
