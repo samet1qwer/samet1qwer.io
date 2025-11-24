@@ -16,10 +16,7 @@ function HomeUser() {
       })
       .then((data) => setMenu(data))
       .catch((err) =>
-        console.error(
-          "Veri alınamadı:",
-          `${import.meta.env.BASE_URL}data/data.json`
-        )
+        console.error(`${import.meta.env.BASE_URL}data/data.json`)
       );
   }, []);
 
