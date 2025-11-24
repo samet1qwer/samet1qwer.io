@@ -6,7 +6,7 @@ import { BrowserRouter } from "react-router-dom";
 
 createRoot(document.getElementById("root")).render(
   <StrictMode>
-    <BrowserRouter basename="https://samet1qwer.github.io/samet1qwer.io">
+    <BrowserRouter basename="/samet1qwer.io">
       <App />
     </BrowserRouter>
   </StrictMode>
