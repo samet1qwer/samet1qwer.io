@@ -45,7 +45,7 @@ function HomeUser() {
       <Header setSearchQuery={setSearchQuery} SearchQuery={searchQuery} />
       <Categories onSelectCategory={setActiveCategory} />
 
-      <div className="max-w-7xl mx-auto md:px-10 px-7">
+      <div className="max-w-7xl mx-auto md:px-10 px-7 ">
         {searchQuery === "" &&
           categoriesToShow.map((categoryName) => (
             <div key={categoryName}>

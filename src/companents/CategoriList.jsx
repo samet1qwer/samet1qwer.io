@@ -7,6 +7,6 @@ const categoriesData = [
   },
   { name: "İçecekler", isActive: false },
   { name: "Tatlılar", isActive: false },
-  { name: "Webci_Menu", isActive: false },
+  { name: "Developer_Menu", isActive: false },
 ];
 export default categoriesData;
