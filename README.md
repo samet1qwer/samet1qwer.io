@@ -1,16 +1,36 @@
-# React + Vite
+##  Gourmet Restaurant QR Menu
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple, modern web application designed to **digitize restaurant menus**. Customers can quickly scan a **QR code** to instantly access and browse the menu on their personal devices, providing a clean, convenient, and hygienic alternative to traditional physical menus.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+##  Features
 
-## React Compiler
+This application provides a seamless experience for both customers and restaurant staff:
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+* **Category-based Menu**: The menu is intuitively organized into clear categories, such as:
 
-## Expanding the ESLint configuration
+  * Main Courses
+  * Beverages
+  * Desserts
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+* **Detailed Menu Items**: Each item includes a detailed description and its price, ensuring customers have all the information they need.
+
+* **Intuitive Admin Panel**: A secure and user-friendly administrative interface allows staff to easily manage and update menu items in real-time without technical expertise.
+
+* **Responsive Design**: The customer-facing menu features a modern and clean UI that is fully responsive, ensuring a perfect viewing experience on all devices (smartphones, tablets, and desktops).
+
+---
+
+##  Technologies
+
+The application is built using a modern and powerful stack:
+
+* **Frontend**
+
+  * **React**: For building a fast, dynamic, and scalable user interface.
+  * **Tailwind CSS**: For rapid styling and a clean, utility-first approach to achieve a modern design.
+
+* **Design**
+
+  * **Clean and Modern UI**: Focuses on accessibility, ease of use, and a premium aesthetic that complements a gourmet dining experience.
